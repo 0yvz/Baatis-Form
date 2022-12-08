@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<title>Båtis</title>
+		<link rel="icon"	type="image/x-icon" href="./assets/favicon-32x32.png">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="title">Heisann!</div>
+			<p>For at vi skal få en oversikt over hvor vi skal levere is i sommer trenger vi litt info om deg:</p>
+			<form action="#">
+				<div class="user-details">
+					<div class="input-box">
+						<span class="details">Fult Navn</span>
+						<input type="text" placeholder="Ditt navn her" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Brukernavn</span>
+						<input type="text" placeholder="Ditt brukernavn her" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Epost</span>
+						<input type="text" placeholder="Din mailadresse her" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Telefonnummer</span>
+						<input type="number" placeholder="Ditt telefonnummer her" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Passord</span>
+						<input type="password" placeholder="Lag et passord" required>
+					</div>
+					<div class="input-box"> 
+						<span class="details">Bekreft Passord</span>
+						<input type="password" placeholder="Bekreft passordet" required>
+					</div>
+				</div>
+
+				<div class="gender-details">
+					<input type="radio" name="gender" id="dot-1">
+					<input type="radio" name="gender" id="dot-2">
+					<input type="radio" name="gender" id="dot-3">
+					<span class="gender-title">Kjønn</span>
+					<div class="category">
+						<label for="dot-1">
+							<span class="dot one"></span>
+							<span class="gender">Mann</span>
+						</label>
+						<label for="dot-2">
+							<span class="dot two"></span>
+							<span class="gender">Kvinne</span>
+						</label>
+						<label for="dot-3">
+							<span class="dot three"></span>
+							<span class="gender">Annet</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="location">
+					<span class="location-title">Hvor i Norge har du hytte?</span>
+						<label for="location"></label>
+						<select name="location">
+						  <option value="kragero">Kragerø</option>
+						  <option value="hvaler">Hvaler</option>
+						  <option value="tjome">Tjøme</option>
+						  <option value="larkollen">Larkollen</option>
+						</select>
+				</div>
+
+				<div class="button">
+					<input type="submit" value="Meld meg på!">
+				</div>
+			</form>
+		</div>
+
+		<div class="ocean">
+			<div class="wave"></div>
+			<div class="wave"></div>
+		</div>
+	</body>
+
+</html>
